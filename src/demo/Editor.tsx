@@ -1,11 +1,11 @@
 import React, {useMemo} from 'react';
-import { useEventObservable } from '../hooks/useEventObservable';
-import useObservable from '../hooks/useObservable';
-import Input from '../components/Input';
+import { useEventObservable } from '@/hooks/useEventObservable';
+import useObservable from '@/hooks/useObservable';
+import Input from '@/components/Input';
 import { interval, merge, of } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, mapTo, startWith, switchMap, takeUntil } from 'rxjs/operators';
-import Code from '../components/Code';
-import Cursor from '../components/Cursor';
+import Code from '@/components/Code';
+import Cursor from '@/components/Cursor';
 
 const once: any[] = [];
 
