@@ -1,5 +1,5 @@
 import React, {useMemo} from 'react';
-import { useEventObservable } from '../hooks/useEvent';
+import { useEventObservable } from '../hooks/useEventObservable';
 import useObservable from '../hooks/useObservable';
 import Input from '../components/Input';
 import { interval, merge, of } from 'rxjs';
